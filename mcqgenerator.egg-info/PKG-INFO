@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: mcqgenerator
+Version: 0.0.1
+Author: Sankalp Bankar
+Author-email: sankalpbankar7@gmail.com
+Requires-Dist: groq
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: pypdf
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
