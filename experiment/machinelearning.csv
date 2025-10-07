@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+Who is credited with coining the term 'machine learning' in 1959?,a: Arthur Samuel | b: Donald Hebb | c: Alan Turing | d: Walter Pitts,a
+What was the primary task of the 'Cybertron' developed by Raytheon Company in the early 1960s?,"a: Text analysis | b: Speech recognition | c: Analyzing sonar signals, electrocardiograms, and speech patterns | d: Pattern classification",c
+What type of learning is described by a computer program being 'repetitively trained' by a human operator/teacher to recognize patterns?,a: Supervised learning | b: Unsupervised learning | c: Reinforcement learning | d: Self-teaching,d
+"What is the fundamental operational definition of machine learning, as proposed by Tom M. Mitchell?",a: Improving performance with experience | b: Making decisions with respect to previous unknown time | c: Recognizing patterns and making predictions | d: Analyzing data to draw conclusions,a
+"What type of machine learning focuses on decisions that must be made with respect to some previous, unknown time?",a: Supervised learning | b: Unsupervised learning | c: Reinforcement learning | d: Pattern recognition,c
