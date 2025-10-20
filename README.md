@@ -50,14 +50,34 @@ pip install -r requirements.txt
 
 
 ### 3️⃣ Set Up Environment Variables 🔑
-```sh
 Create a .env file in the root directory
 Add your API key:
+```sh
 GROQ_API_KEY=groq_api_key
 ```
 
-### 4️⃣ Run the Streamlit App 🚀
+### 4️⃣ Load the LLM (LLaMA3.1) 🦙
+The code uses LangChain + Groq to load the model:
+```sh
+groq_api_key=os.getenv("GROQ_API_KEY")
+llm = ChatGroq(
+    groq_api_key=groq_api_key,  
+    model_name="llama-3.1-8b-instant",
+    temperature=0.2        
+)
+```
+
+### 5️⃣ Run the Streamlit App 🚀
 Ensure you have all backend files and Streamlit app ready. Then run:
 ```sh
 streamlit run StreamlitAPP.py
+```
+Your browser will open the app at http://localhost:8501
+
+
+## 🛠️ Troubleshooting 🚨
+•	API Key Error
+Set your key using:
+```sh
+os.environ["GROQ_API_KEY"] = "your-api-key"
 ```
