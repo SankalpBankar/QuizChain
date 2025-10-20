@@ -72,7 +72,7 @@ Ensure you have all backend files and Streamlit app ready. Then run:
 ```sh
 streamlit run StreamlitAPP.py
 ```
-Your browser will open the app at http://localhost:8501
+Your browser will open the app at http://localhost:8505
 
 
 ## 🛠️ Troubleshooting 🚨
@@ -81,5 +81,6 @@ Set your key using:
 ```sh
 os.environ["GROQ_API_KEY"] = "groq_api_key"
 ```
+
 
 
