@@ -1,7 +1,10 @@
 groq
-langchain
+langchain-core
+langchain-community
+langchain-groq
 streamlit
 python-dotenv
 pypdf
+json-repair
 
 -e .
