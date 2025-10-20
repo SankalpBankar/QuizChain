@@ -39,7 +39,7 @@ QuizChain/
 Follow these steps to set up and run your RAG-based chatbot:
 ### 1️⃣ Clone the Repository 📥
 ```sh
-git clone https://github.com/SankalpBankar/QuizChain
+git clone https://github.com/SankalpBankar/QuizChain.git
 cd QuizChain
 ```
 
@@ -81,4 +81,5 @@ Set your key using:
 ```sh
 os.environ["GROQ_API_KEY"] = "groq_api_key"
 ```
+
 
