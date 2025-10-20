@@ -25,3 +25,15 @@ QuizChain/
 ├── response.json          # 📩 Example/template for the desired JSON output
 └── README.md              # 📖 Project description and setup instructions
 ```
+
+## 💡 Tech Stack 🛠️
+- **Python** 🐍 — Core programming language for logic and data handling
+- **Streamlit** 🌐 — For building the interactive web interface
+- **LangChain** 🔗 — Framework for orchestrating LLM-based MCQ generation
+- **Groq API** ⚡ — High-speed inference for question and answer generation
+- **Pandas / JSON / dotenv** 📄 — For data management and configuration
+
+---
+
+## ⚙️ Setup & Installation for RAGforGeeks 🧠💬
+Follow these steps to set up and run your RAG-based chatbot:
