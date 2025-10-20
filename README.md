@@ -79,5 +79,6 @@ Your browser will open the app at http://localhost:8501
 •	API Key Error
 Set your key using:
 ```sh
-os.environ["GROQ_API_KEY"] = "your-api-key"
+os.environ["GROQ_API_KEY"] = "groq_api_key"
 ```
+
