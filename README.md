@@ -35,5 +35,29 @@ QuizChain/
 
 ---
 
-## ⚙️ Setup & Installation for RAGforGeeks 🧠💬
+## ⚙️ Setup & Installation for QuizChain 🎯⚡
 Follow these steps to set up and run your RAG-based chatbot:
+### 1️⃣ Clone the Repository 📥
+```sh
+git clone https://github.com/SankalpBankar/QuizChain
+cd QuizChain
+```
+
+### 2️⃣ Install Dependencies 📦
+```sh
+pip install -r requirements.txt
+```
+
+
+### 3️⃣ Set Up Environment Variables 🔑
+```sh
+Create a .env file in the root directory
+Add your API key:
+GROQ_API_KEY=groq_api_key
+```
+
+### 4️⃣ Run the Streamlit App 🚀
+Ensure you have all backend files and Streamlit app ready. Then run:
+```sh
+streamlit run StreamlitAPP.py
+```
