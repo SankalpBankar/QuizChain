@@ -76,13 +76,13 @@ Your browser will open the app at http://localhost:8505
 
 
 ## 🛠️ Troubleshooting 🚨
-•	API Key Error
+### • API Key Error
 Set your key using:
 ```sh
 os.environ["GROQ_API_KEY"] = "groq_api_key"
 ```
 
-• Streamlit App not running
+### • Streamlit App not running
 If the command fails or you get ModuleNotFoundError.
 Ensure dependencies are installed and environment is active:
 1. Activate your environment
@@ -93,3 +93,4 @@ source env/bin/activate
 ```sh
 pip install -r requirements.txt
 ```
+
