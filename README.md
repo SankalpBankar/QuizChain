@@ -85,12 +85,15 @@ os.environ["GROQ_API_KEY"] = "groq_api_key"
 • Streamlit App not running
 If the command fails or you get ModuleNotFoundError.
 Ensure dependencies are installed and environment is active:
+1. Activate your environment
 ```sh
-# 1. Activate your environment
 source env/bin/activate
-# 2. Re-install all dependencies
+```
+2. Re-install all dependencies
+```sh
 pip install -r requirements.txt
 ```
+
 
 
 
