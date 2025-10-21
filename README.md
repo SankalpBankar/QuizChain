@@ -82,5 +82,15 @@ Set your key using:
 os.environ["GROQ_API_KEY"] = "groq_api_key"
 ```
 
+• Streamlit App not running
+If the command fails or you get ModuleNotFoundError.
+Ensure dependencies are installed and environment is active:
+```sh
+# 1. Activate your environment
+source env/bin/activate
+# 2. Re-install all dependencies
+pip install -r requirements.txt
+```
+
 
 
