@@ -36,7 +36,7 @@ QuizChain/
 ---
 
 ## ⚙️ Setup & Installation for QuizChain 🎯⚡
-Follow these steps to set up and run your RAG-based chatbot:
+Follow these steps to set up and run your mcq generator:
 ### 1️⃣ Clone the Repository 📥
 ```sh
 git clone https://github.com/SankalpBankar/QuizChain.git
@@ -93,4 +93,5 @@ source env/bin/activate
 ```sh
 pip install -r requirements.txt
 ```
+
 
